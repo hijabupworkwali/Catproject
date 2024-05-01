@@ -1,0 +1,54 @@
+/* Styles for the body */
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: Arial, sans-serif; /* Consistent font for the whole page */
+}
+
+/* Styles for all div containers */
+div.container {
+    padding: 20px; /* Adds padding inside the container */
+}
+
+/* Styling for the main title */
+h1.text-center {
+    color: #333; /* Dark grey color for the text */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Styles for images within the container */
+img.img-fluid {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Table styling */
+table.table {
+    width: 100%; /* Ensures the table takes full width of its container */
+    background-color: white; /* White background for the table */
+    border-collapse: collapse; /* Collapses table borders */
+}
+
+/* Table header styling */
+thead {
+    background-color: #e9ecef; /* Light gray background for table headers */
+}
+
+/* Table row styling */
+tr {
+    border-bottom: 1px solid #dee2e6; /* Light grey line under each row */
+}
+
+/* Table cell styling */
+th, td {
+    text-align: left; /* Aligns text to the left */
+    padding: 12px; /* Padding inside table cells */
+}
+
+/* Responsive column adjustments */
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%; /* Flex settings to control width on medium devices */
+        max-width: 50%; /* Maximum width is 50% of the parent */
+    }
+}
